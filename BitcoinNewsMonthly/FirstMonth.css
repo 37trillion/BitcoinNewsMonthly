@@ -1,0 +1,341 @@
+#AB {
+    background: black;
+    color: white;
+    font-size: 25px;
+    border: solid 10px;
+    border-color: rgb(212, 62, 3);
+    text-align: left;
+    margin-left: 159px;
+    border-left-width: 28px;
+  }
+#QWE {
+  border: solid orange;
+  border-width: 10px;
+  margin-left: 10px;
+  margin-right: 59px;
+  outline: grey;
+  outline-width: 5px;
+} 
+#PredictAA {
+  border: solid orange;
+  border-width: 10px;
+  outline: red;
+  outline-width: 20px;
+  margin-left: 150px;
+  margin-right: 45px;
+}
+#AAAAA {
+  border: solid yellow;
+  border-width: 5px;
+  margin-left:70px;
+  margin-right: 350px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+#AAA {
+  border: solid orange;
+  border-width: 15px;
+  margin-left: 55px;
+  margin-right: 300px;
+  margin-top: 1px;
+  margin-bottom: 1px;
+
+}
+#General {
+  border: solid orangered
+  border-width: 15px;
+  margin-right: 450px;
+  margin-left: 25px;
+}
+#Interesting {
+  border: solid yellow;
+  border-width: 10px;
+  margin-right: 450px;
+  margin-left: 50px;
+  outline: red;
+  outline-width: 15px;
+}
+#InterestingA {
+  border: solid orangered;
+  border-width: 15px;
+  margin-right: 350px;
+  margin-left: 80px;
+  outline:rgb(255, 119, 0);
+  outline-width: 10px;
+}
+#EAR {
+  border: solid orangered;
+  border-width: 10px;
+  margin-right: 600px;
+  margin-left: 100px;
+
+}
+#EARS {
+  border: solid orangered;
+  border-width: 10px;
+  margin-right: 420px;
+  margin-left: 100px;
+}
+#EARSS {
+  border: solid orangered;
+  border-width: 5px;
+  margin-right: 300px;
+  margin-left: 150px;
+}
+#MAN {
+  border: solid yellow;
+  border-width: 10px;
+  margin-right: 300px;
+  margin-left: 250px;
+}
+#MA {
+  border: solid yellow;
+  border-width: 5px;
+  margin-right: 420px;
+  margin-left: 85px;
+}
+#A {
+    border: solid rgb(241, 221, 3);
+    border-width: 25px;
+    font-size: 100px;
+    color: grey;
+    text-align: center;
+}
+#AAA {
+    border: solid 10px;
+    border-color: firebrick;
+    margin-top: 0px;
+    margin-bottom 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: larger;
+    text-align: center;
+}
+#FGH {
+  border: solid orange;
+  border-width: 10px;
+  margin-right: 650px;
+  margin-left: 50px;
+}
+#FF {
+  margin-right: 650px;
+  margin-left: 50px;
+  border: solid orangered;
+  border-width: 10px;
+  font-style: initial;
+}
+#H {
+  border: solid white;
+  border-width: 10px;
+  width: 892px;
+  height: 100px;
+}
+#ZZ {
+  width: 900px;
+  height: 250px;
+  border: solid white;
+  border-width: 10px;
+}
+#PLZ {
+  border: solid firebrick;
+  border-width: 10px;
+  background-color: orangered
+}
+#EE {
+    border: solid white;
+    border-width: 10px;
+    width: 892px;
+    height: 250px;
+    margin-left: 1px;
+    margin-right: 1px;
+    border-color: firebrick;
+    border: solid black;
+    border-width: 10px;
+    border-collapse: separate;
+}
+#G {
+  border: solid orange;
+  border-width: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 0px;
+  margin-top: 5px;
+  border-right-width: 15px;
+
+
+}
+#GGG {
+  border: solid orangered;
+  margin-right: 300px;
+  margin-left: 50px;
+  border-width: 20px;
+  text-align: center;
+  text-shadow: 10px;
+}
+#ACD {
+  border: solid red;
+  border-width: 10px;
+  outline:rgb(239, 70, 3);
+  outline-width: 5px;
+  margin-right: 20px;
+  margin-left: 300px;
+}
+#ASD {
+  border: solid orangered;
+  border-width: 5px;
+  margin-left: 150px;
+  margin-right: 20px;
+  outline:rgb(241, 221, 3);
+  outline-width: 10px red;
+}
+#predictA {
+  margin-left: 420px;
+  margin-right: 600px;
+  border: solid rgb(255, 119, 0);
+  border-width: 20px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+#Predictdiv {
+  border: solid yellow;
+  border-width: 10px;
+  margin-right: 400px;
+  margin-left: 100px;
+}
+#predictA {
+  border: solid rgb(239, 70, 3);
+  border-bottom: 10px;
+  border-top: 10px;
+  border-right: 5px;
+  border-left: 5px;
+  margin-left: 50px;
+  margin-right: 650px;
+  font-family: underline;
+}
+#PredictA {
+  border: solid red;
+  border-width: 5px;
+  outline:rgb(241, 221, 3);
+  margin-right: 375px;
+  margin-left: 35px;
+  margin-top: 15px;
+  margin-bottom: 1px;
+}
+#Predict {
+  border: solid orange;
+  border-width: 15px;
+  outline: red;
+  margin-right: 75px;
+  margin-left: 420px;
+}
+#Current {
+  border: solid orange;
+  border-width: 10px;
+  margin-right: 375px;
+  margin-left: 120px;
+  margin-top: 1px;
+  margin-bottom: 5px;
+}
+#CurrentA {
+  border: solid orangered;
+  border-width: 10px;
+  margin-right: 450px;
+  margin-left: 80px;
+  
+}
+#ZZZ {
+  border: solid white;
+  width: 890px;
+  height: 250px;
+  border-width: 10px;
+}
+#General {
+  border: solid red;
+  border-width: 10px;
+  margin-right: 400px;
+  margin-left: 10px;
+  outline:rgb(255, 119, 0);
+  outline-width: 20px;
+}
+#GeneralA {
+  border: solid rgb(255, 119, 0);
+  border-width: 30px;
+  outline:rgb(241, 221, 3);
+  outline-width: 5px;
+  margin-right: 250px;
+  margin-left: 25px;
+}
+#GeneralP {
+  border: solid red;
+  border-width: 10px;
+  outline:rgb(239, 70, 3);
+  outline-width: 20px;
+  margin-right: 250px;
+  margin-left: 20px;
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+#PriceDiv {
+  border: solid yellow;
+  border-width: 13px;
+  margin-left: 50px;
+  margin-right: 250px;
+  border-bottom:rgb(255, 119, 0);
+}
+#Price {
+  border: solid orangered;
+  border-width: 15px;
+  margin-right: 250px;
+  margin-left: 120px;
+  border-style: double;
+}
+#Summary {
+  border: solid orange;
+  border-width: 10px;
+  margin-right: 350px;
+  margin-left: 250px;
+  outline: orangered;
+  outline-width: 5px;
+}
+#SummaryA {
+  border: solid red;
+  border-width: 10px;
+  margin-right: 420px;
+  margin-left: 75px;
+  outline:rgb(241, 221, 3);
+  outline-width: 10px;
+}
+#Ticker {
+  border: solid orange;
+  border-width: 15px;
+  margin-right: 420px;
+  margin-left: 75px;
+}
+
+#scroll-menu {
+    position: fixed;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    z-index: 999;
+  }
+  
+  #scroll-menu ul {
+    list-style-type: square;
+    margin: 5px;
+    padding: 5px;
+  }
+  
+  #scroll-menu li {
+    margin-bottom: 10px;
+  }
+  
+  #scroll-menu li a {
+    display: block;
+    padding: 7px;
+    border: 1px solid rgb(247, 106, 6);
+    background-color: rgb(22, 200, 9);
+    color: black;
+    text-decoration: none;
+    text-size-adjust: small;
+    transition: background-color 0.3s ease-in-out;
+  }

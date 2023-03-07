@@ -1,0 +1,80 @@
+// Get the menu element
+const menu = document.getElementById('scroll-menu');
+
+// Get the sections on the page
+const sections = document.querySelectorAll('section');
+
+// Create an array to store the offsets of each section from the top of the page
+const sectionOffsets = Array.from(sections, section => section.offsetTop);
+
+// Handle the scrolling functionality
+window.addEventListener('scroll', () => {
+  const currentScrollPosition = window.pageYOffset;
+
+  // Find the section that the user is currently viewing
+  const currentSection = sectionOffsets.reduce((prev, curr) => {
+    if (curr <= currentScrollPosition) {
+      return curr;
+    } else {
+      return prev;
+    }
+  });
+
+  // Get the index of the current section
+  const currentIndex = sectionOffsets.indexOf(currentSection);
+
+  // Highlight the corresponding menu option
+  const menuLinks = menu.querySelectorAll('a');
+  menuLinks.forEach(link => link.classList.remove('active'));
+  menuLinks[currentIndex].classList.add('active');
+});
+
+// Handle the click events of the menu options
+const menuLinks = menu.querySelectorAll('a');
+menuLinks.forEach((link, index) => {
+  link.addEventListener('click', event => {
+    event.preventDefault();
+    window.scrollTo({
+      top: sectionOffsets[index],
+      behavior: 'smooth'
+    });
+  });
+});
+
+function submitComment() {
+  // Get the values of the name and comment fields
+  var name = document.getElementById("name").value;
+  var comment = document.getElementById("comment").value;
+
+  // Create a new comment element
+  var newComment = document.createElement("div");
+  newComment.innerHTML = "<h4>" + name + "</h4><p>" + comment + "</p>";
+
+  // Add the new comment element to the comments div
+  var commentsDiv = document.getElementById("comments");
+  commentsDiv.appendChild(newComment);
+
+  // Clear the name and comment fields
+  document.getElementById("name").value = "";
+  document.getElementById("comment").value = "";
+}
+
+
+  const priceElement = document.getElementById("price");
+
+function fetchBitcoinPrice() {
+  fetch("https://api.coindesk.com/v1/bpi/currentprice.json")
+    .then(response => response.json())
+    .then(data => {
+      const bitcoinPrice = data.bpi.USD.rate;
+      priceElement.innerText = `$${bitcoinPrice}`;
+    })
+    .catch(error => console.error(error));
+}
+
+fetchBitcoinPrice();
+setInterval(fetchBitcoinPrice, 60000);
+
+  
+
+  
